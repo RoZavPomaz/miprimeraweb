@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mi primera web</title>
+    <style>
+        table,
+        th,
+        td {
+            border: 1px solid black
+        }
+    </style>
+</head>
+
+<body>
+    <table style="width: 500px;">
+        <!--TR es una fila dentro de nuestra tabla-->
+        <thead>
+            <tr>
+                <th>Producto</th>
+                <th>Precio</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <!--TD se utuliza para poner elemtnos estandares dentro de la tabla-->
+                <td>Hola beats</td>
+                <td>Gratis</td>
+            </tr>
+            <tr>
+                <td>Chanchito feliz</td>
+                <td>59.90</td>
+            </tr>
+            <tr>
+                <td>Chanchito feliz muy feliz</td>
+                <td>70.90</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <td>Total</td>
+            <td>131.8</td>
+        </tfoot>
+    </table>
+    <!--ul es lista no ordenada-->
+    <ul>
+        <li>Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+    </ul>
+    <!--ol es lista ordenada-->
+    <ol>
+        <li value="50">Elemento 1</li>
+        <li>Elemento 2</li>
+        <li>Elemento 3</li>
+        <li>Elemento 4</li>
+        <li>
+            <ol>
+                <li style="list-style-type: style type lower-roman;">sub elemento 1</li>
+                <li style="list-style-type: lower-roman;">sub elemento 2</li>
+                <li style="list-style-type: lower-roman;">sub elemento 3</li>
+            </ol>
+        </li>
+    </ol>
+
+
+
+
+    <form action="/formulario" method="post">
+        <label for="Nombre">Nombre</label>
+        <input value="chanchito" type="text" id="Nombre" name="Nombre" placeholder="Escribe tu nombre">
+        <br><br>
+        <label for="Apellido">Apellido</label>
+        <input value="feliz" type="text" id="Apellido" name="Apellido" placeholder="Escribe tu Apellido">
+        <br><br>
+        <label for="Comentario">Comentario</label><br>
+        <textarea cols="50" rows="10" id="Comentario" placeholder="Ingrese comentario"
+            name="Comentario">valor por defecto</textarea>
+        <br>
+        <button type="button">Tipo botón</button>
+        <button type="reset">Tipo reset</button>
+        <button type="submit">Tipo submit</button>
+    </form>
+    <h1>Mi primer heading</h1>
+    <h2>Mi primer heading</h2>
+    <h3>Mi primer heading</h3>
+    <h4>Mi primer heading</h4>
+    <h5>Mi primer heading</h5>
+    <h6>Mi primer heading</h6>
+    <p>chanchito felis esta muy feliz</p>
+    <p>chanchito triste esta muy triste</p>
+    <hr>
+    <h2>chanchito felipe</h2>
+    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Veniam optio illo voluptate odit in assumenda dolore
+        <span style="color:blueviolet">inventore culpa</span>. <br><br>
+        Aut dolore at laborum sed quis sint atque, obcaecati
+        saepe ab suscipit.
+    </p>
+    <!--este texto es un comentario y no va aparecer en el explorador-->
+    <a target="_blank" href="https://www.google.com.pe">ir a google</a><br>
+    <img src="img/coffe.jpeg" width="300">
+
+</body>
+
+</html>
